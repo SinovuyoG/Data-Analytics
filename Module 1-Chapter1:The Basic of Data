@@ -8,7 +8,11 @@ Three pillars of Golden Age of Analytics
 # Data Analytic Processes:
 -Are sequential or interrelated actions that may be revisited while working with data sets.
 -For example,
-	an analyst reviewing a visualization may notice unusual data points that do not seem to belong in the dataset, causing them to return to the data cleaning stage and rerun their analysis with the newly cleaned dataset. Similarly, an analyst running an analysis might discover that their analysis would be enriched by adding another source of data, causing them to return to the data acquisition stage.
+	an analyst reviewing a visualization may notice unusual data points that do not seem to belong in the dataset, causing them to return to the data cleaning stage
+and rerun their analysis with the newly cleaned dataset.
+Similarly, an analyst running an analysis might discover that their analysis would be enriched by adding another source of data, causing them to return to the data acquisition stage.
+
+
 •	Data Acquisition
 o	Sourcing data from various channels, including databases, spreadsheets, and external sources,
 o	
