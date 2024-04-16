@@ -123,5 +123,32 @@ Unstructured Data Types
 
 Amongst the two categories of data mentioned above, not all data fits neatly in them.
 We also have Semi- structured data category.
+
+
 Semi- structured data
-•	Semi-structured data represents the space between structured spreadsheets and unstructured videos.
+••	Semi-structured data represents the space between structured spreadsheets and unstructured videos.
+•	Semi-structured data falls somewhere between structured and unstructured data. It doesn't fit neatly into a relational table (as structured data does), yet it has some organizational properties that make it easier to analyze than raw unstructured data. Semi-structured data typically includes tags or other markers to separate semantic elements and enforce hierarchies of records and fields within the data. This type of data is common in formats that do not require a rigid schema, allowing for more flexibility in the data that is captured. Here are some common types of semi-structured data encountered in data analytics:
+•	JSON (JavaScript Object Notation):
+•	A lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. JSON is used extensively in web services and APIs to send and receive data.
+•	XML (eXtensible Markup Language):
+•	A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. XML is heavily used in web technologies, various configuration files, and in data exchange between different applications.
+•	YAML (YAML Ain't Markup Language):
+•	A human-readable data serialization standard that can be used in conjunction with all programming languages and is often used for configuration files.
+•	CSV (Comma-Separated Values):
+•	While often considered structured, CSV files can become semi-structured when the data within them is irregular, contains hierarchical structures, or multiple tables within a single file, especially when headers or metadata are included.
+•	HTML (HyperText Markup Language):
+•	Primarily a markup language for creating web pages, HTML can be considered semi-structured as it contains data points (such as text in paragraphs or data in tables) embedded within tags.
+•	Emails:
+•	Emails have standardized headers (structured) but also contain free-form text bodies and possibly mixed content like attachments, making them semi-structured.
+•	NoSQL Databases:
+•	Data from NoSQL databases like MongoDB (which stores data in BSON, similar to JSON) or Apache Cassandra (which uses its own format) typically are semi-structured because they do not require a fixed schema, and the structure can vary from one data item to another.
+•	Challenges and Analysis Techniques:
+•	Data Parsing and Normalization: Extracting data from semi-structured formats often requires parsing through the use of specialized libraries or tools.
+•	Schema Flexibility: While flexibility is an advantage, it can also be a challenge because the lack of a strict schema can lead to inconsistencies in data, making analysis difficult.
+•	Integration: Combining data from semi-structured sources with structured data sources for comprehensive analysis often requires transformation and normalization steps.
+•	Tools and Technologies:
+•	Data Processing Libraries: Libraries such as Pandas for Python can manipulate semi-structured data formats like JSON and CSV.
+•	ETL Tools: Tools like Apache NiFi, Logstash, and Informatica are capable of processing semi-structured data.
+•	NoSQL Databases: Systems like MongoDB, Elasticsearch, and others are designed to store and manage semi-structured data efficiently.
+•	Semi-structured data is very common in the modern data ecosystem, particularly in web applications and big data environments. Handling this type of data effectively requires a mix of techniques from the realms of both structured and unstructured data analytics.
+
